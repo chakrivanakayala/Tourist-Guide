@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient( #13d5a1, #6d698c); height: 700px; ">
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="form-group">
+                <label for="userType">Login As:</label>
+                <select id="userType" required>
+                    <option value="user">User</option>
+                    <option value="guide">Guide</option>
+                </select>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p class="signup-link">Don't have an account? <a link rel="sheet" href="signup.html">Sign up here</a>.</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
